@@ -28,7 +28,7 @@ const siteConfig = {
     github: 'https://github.com/neonwatty',
     twitter: 'https://x.com/neonwatty',
     linkedin: null,
-    email: 'mailto:hello@neonwatty.com',
+    email: null,
     blog: 'https://neonwatty.com/',
     reddit: 'https://www.reddit.com/user/neonwatty/',
   },
