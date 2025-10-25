@@ -100,10 +100,8 @@ export default function RootLayout({
         )}
         {siteConfig.newsletter?.enabled && (
           <Script
-            type="text/javascript"
             src="https://subscribe-forms.beehiiv.com/attribution.js"
             strategy="afterInteractive"
-            async
           />
         )}
         <ThemeProvider>
