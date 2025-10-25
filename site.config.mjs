@@ -25,10 +25,20 @@ const siteConfig = {
 
   // Social media links (set to null to hide)
   social: {
-    github: 'https://github.com/yourusername',
-    twitter: 'https://twitter.com/yourusername',
-    linkedin: 'https://linkedin.com/in/yourusername',
-    email: 'mailto:hello@example.com',
+    github: 'https://github.com/neonwatty',
+    twitter: 'https://x.com/neonwatty',
+    linkedin: null,
+    email: null,
+    blog: 'https://neonwatty.com/',
+    reddit: 'https://www.reddit.com/user/neonwatty/',
+  },
+
+  // Newsletter configuration (Beehiiv embed)
+  newsletter: {
+    enabled: true,
+    embedUrl: 'https://subscribe-forms.beehiiv.com/a32a2710-173d-423e-b754-3a4cd3c25cc9',
+    title: 'Subscribe to Newsletter',
+    description: 'Get the latest updates delivered to your inbox.',
   },
 
   // Navigation menu items
