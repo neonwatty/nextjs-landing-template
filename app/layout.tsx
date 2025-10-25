@@ -98,12 +98,6 @@ export default function RootLayout({
             </Script>
           </>
         )}
-        {siteConfig.newsletter?.enabled && (
-          <Script
-            src="https://subscribe-forms.beehiiv.com/attribution.js"
-            strategy="afterInteractive"
-          />
-        )}
         <ThemeProvider>
           {children}
           <Toaster
